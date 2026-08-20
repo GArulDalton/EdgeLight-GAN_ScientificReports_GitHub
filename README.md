@@ -6,7 +6,7 @@ This repository provides the code organization, configuration, training/inferenc
 
 ## Important provenance statement
 
-This repository is a **manuscript-aligned reproducibility package** prepared from the revised manuscript specifications and available implementation-audit information. This repository provides the source code, configuration files, training and inference scripts, evaluation utilities, computational profiling scripts, deployment benchmarking tools, and reproducibility documentation associated with the EdgeLight-GAN study. The repository is intended to support transparent access to the implementation and reproducibility of the experimental methodology described in the manuscript.
+This repository provides the source code, configuration files, training and inference scripts, evaluation utilities, computational profiling scripts, deployment benchmarking tools, and reproducibility documentation associated with the EdgeLight-GAN study. The repository is intended to support transparent access to the implementation and reproducibility of the experimental methodology described in the manuscript.
 The repository deliberately separates:
 
 1. values reported in the manuscript; and
