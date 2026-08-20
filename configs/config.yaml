@@ -1,0 +1,43 @@
+seed: 42
+
+data:
+  train_low: data/LOL/train/low
+  train_high: data/LOL/train/high
+  val_low: data/LOL/val/low
+  val_high: data/LOL/val/high
+  test_low: data/LOL/test/low
+  test_high: data/LOL/test/high
+  image_size: 256
+
+model:
+  in_channels: 3
+  base_channels: 32
+  branch_channels: 64
+  fusion_channels: 128
+  compressed_channels: 96
+  residual_blocks: 3
+  discriminator_base: 64
+
+training:
+  epochs: 300
+  batch_size: 16
+  num_workers: 4
+  learning_rate: 0.0002
+  betas: [0.5, 0.999]
+  weight_decay: 0.0
+  scheduler: cosine
+  seed: 42
+
+loss:
+  lambda_rec: 1.0
+  lambda_adv: 0.1
+  lambda_perc: 0.5
+  lambda_ssim: 0.3
+  lambda_edge: 0.4
+  lambda_illum: 0.2
+
+benchmark:
+  resolution: 256
+  batch_size: 1
+  warmup_iterations: 20
+  timed_iterations: 100

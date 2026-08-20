@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "EdgeLight-GAN"
+message: "Please cite the associated EdgeLight-GAN manuscript when using this repository."
+type: software
+authors:
+  - family-names: "Kavitha"
+    given-names: "T."
+version: "1.0.0"
+date-released: 2026-08-19
+repository-code: "REPLACE_WITH_FINAL_GITHUB_URL"
